@@ -1,6 +1,7 @@
 //Created by rkim67
 
 const container = document.querySelector("#container");
+container.style.backgroundColor = "white";
 
 //Function to set up the grid, taking size input
 function createGrid(inputSize){
@@ -24,7 +25,9 @@ function createGrid(inputSize){
 
 
 function resetColor(){
-}
+    while (container.firstChild) container.removeChild(container.firstChild);
+    createGrid(16);
 
+}
 document.onload = createGrid(16);
 
