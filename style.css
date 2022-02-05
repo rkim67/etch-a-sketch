@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-bottom: -5px;
+    
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+}
