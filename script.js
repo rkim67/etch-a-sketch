@@ -29,5 +29,8 @@ function resetColor(){
     createGrid(16);
 
 }
+
+//Creating the default grid with 16x16 dimensions
 document.onload = createGrid(16);
+
 
