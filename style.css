@@ -31,12 +31,18 @@ button{
     margin-bottom: 10px;
 }
 
-.h1{
-    font: Arial;
+h1 { 
+    color: #111; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 50px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center; 
 }
 
 button{
-    color: blue;
+    color: #111;
     background-color: pink;  
     width: 100px;
     height: 50px;
