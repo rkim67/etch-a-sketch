@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Etch-A-Sketch</title>
     <link rel = "stylesheet" href = "style.css">   
     <script src = "script.js" defer></script>
 </head>
  
 <body>
-    <button onclick = "resetColor()">Clear</button>
-    <div id = "container">
+    <h1>Etch-A-Sketch</h1>
 
-        
-    </div>
+    <div id = "buttons">
+    <button onclick = "resetColor()">Clear</button>
+    <button onclick = "newGrid(10)">10x10</button>
+    <button onclick = "newGrid(20)">20x20</button>
+    <button onclick = "newGrid(30)">30x30</button>
+</div>
+    <div id = "container"></div>
     
 </body>
 </html>
